@@ -30,12 +30,10 @@ release = '0.1'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [    "nbsphinx", 
-]
+extensions = [ "nbsphinx" ]
 
 nbsphinx_assume_equations = False
 
-# mathjax_path = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
